@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <title>Home</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html" class="logo">Your</a>
+        <ul>
+            <li><a href="index.html" class="navigation">Home</a></li>
+            <li><a href="about.html" class="navigation">About</a></li>
+            <li><a href="test.html" class="navigation">Test</a></li>
+        </ul>
+        <div class="theme">
+            <select id="theme-select">
+                <option value="auto">Auto</option>
+                <option value="light">Light</option>
+                <option value="dark">Dark</option>
+            </select>
+        </div>
+    </nav>
+    <main>
+        <section class="hero">
+            <div>
+                <h1>Home</h1>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div>
+                <img src="https://via.placeholder.com/300" alt="About">
+            </div>
+            <div class="flex ">
+                <!-- partie profil professionel -->
+                <section class="col-reverse flex flex-col gap-2 md:flex-row md:gap-9" id="about">
+                    <h2 class="text-secondary">About</h2>
+                    <div class="flex-info ">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis ipsa nulla ratione, suscipit consequuntur nam est quisquam dignissimos ipsum facilis, molestias eius non odio dolor aut corrupti, obcaecati alias? Enim.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, dicta dignissimos. Magnam optio illum nobis, architecto rerum nemo aliquam, voluptatibus ut, at temporibus sunt delectus ipsa debitis vel ducimus quibusdam!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt voluptates nisi architecto quibusdam reprehenderit quisquam deleniti ipsam minima? Excepturi illum doloribus repudiandae minima cumque hic sapiente expedita veritatis corporis molestiae!</p>
+                    </div>
+                </section>
+            </div>
+            <div class="flex ">
+                <!-- partie Compétence -->
+                <section class="col-reverse flex flex-col " id="skills">
+                    <h2 class="text-secondary">Skills</h2>
+                    <div class="flex-info ">
+                    <ul>
+                        <li><h4>PROGRAMMATION</h4>
+                            <ul class="align two-columns">
+                                <li>JAVA</li>
+                                <li>ADA</li>
+                                <li>PHP</li>
+                                <li>Python</li>
+                                <li>HTML/CSS</li>
+                                <li>C</li>
+                            </ul>
+                        </li>
+                        <li><h4>BASE DE DONNÉES</h4>
+                            <ul class="align two-columns">
+                                <li>PL/SQL</li>
+                                <li>Excel/Acces</li>
+                            </ul>
+                        </li>
+                        <li><h4>LOGICIELS MAÎTRISÉS</h4>
+                            <ul class="align two-columns">
+                                <li>Oracle - Apex, SQL Developer</li>
+                                <li>Looping</li>
+                                <li>Windev</li>
+                                <li>Eclipse et Modelio</li>
+                                <li>Visual Studio Code (VSCode)</li>
+                                <li>Jupyter & Notebook</li>
+                                <li>GanttProject, MindView, Trello</li>
+                                <li>WordPress</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    </div>
+                </section>
+            </div>
+            <div class="flex ">
+                <!-- partie Parcours -->
+                <section class="col-reverse flex flex-col " id="studies">
+                    <h2 class="text-secondary">Parcours</h2>
+                    <div class="flex-info">
+                        <ul class="studies-list">
+                            <li>
+                                <a href="https://iut.univ-tlse3.fr/" target="_blank" class="study-item">
+                                    <img src="/Paquies.io/media/Logo_IUT_Toulouse_Informatique_couleurs.jpg" alt="Université Logo" class="study-logo">
+                                    <span>IUT Informatique | Université Paul Sabatier III (31)<br/><p class="info_suplémentaire">2ème année de BUT Informatique</p></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://etab.ac-reunion.fr/lyc-jean-joly/" target="_blank" class="study-item">
+                                    <img src="/Paquies.io/media/logo_study.jpg" alt="Logo du lycée Jean Joly" class="study-logo">
+                                    <span>Lycée Jean Joly | Réunion (974)<br/><p class="info_suplémentaire">Baccalauréat Général, Numérique Science de l'Informatique(NSI), Science de l'Ingenieur</p> </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            <div class="flex">
+                <!-- partie Contact -->
+                <section class="col-reverse flex flex-col " id="contact">
+                    <h2 class="text-secondary">Contact</h2>
+                    <div class="flex-info">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam, magnam.</p>
+                    </div>
+                </section>
+            </div>
+        </section>      
+    </main>
+</body> 
+</html><script src="app.js"></script>
